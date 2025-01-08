@@ -4,6 +4,7 @@ ssh
 admin
 root
 username
+tomcat
 guest
 basic
 test
