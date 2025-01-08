@@ -7,35 +7,55 @@ username
 guest
 basic
 test
-<b>User Credentials (username/password): </b>guest/guest<br />
-	<b>User Credentials (username/password): </b>user/user<br />
-    <b>User Credentials (username/password): </b>basic/basic<br />
-	<b>Admin Credentials (username/password): </b>webgoat/webgoat<br />
->bob@ateliergraphique.com/123456
-admin@metacorp.com/admin1234
-jack@metacorp.com/yankeessuck
-	<b>User Credentials (username/password): </b>test/test<br />
-	<b>User Credentials (username/password): </b>anonymous/anonymous<br />
-	<b>Admin Credentials (username/password): </b>admin/admin<br />
-bee/bug
-anonymous/anonymous
-cheddar/orange
-administrator/secret
-	<b>User Credentials (username/password): </b>scanner1/scanner1<br />
-	<b>User Credentials (username/password): </b>scanner2/scanner2<br />
-	<b>User Credentials (username/password): </b>bryce/bryce<br />
-	<b>Admin Credentials (username/password): </b>admin/admin<br />
-	<b>Admin Credentials (username/password): </b>adamd/adamd<br />
-test@thebodgeitstore.com/password
-cycloneuser-3@cyclonetransfers.com/password
-	<b>User Credentials (username/password): </b>user1/user1<br />
-	<b>User Credentials (username/password): </b>user2/user2<br />
-demo/demo
-mod/mo
-assistant/assistant
-	<b>Language: </b>PHP<br />
-	<b>User Credentials (username/password): </b>author/author<br />
-	<b>User Credentials (username/password): </b>editor/editor<br />
-	<b>User Credentials (username/password): </b>publisher/publisher<br />
-	<b>User Credentials (username/password): </b>registered/registered<br />
-	<b>Admin Credentials (username/password): </b>admin/admin<br />
+guest
+user
+basic
+webgoat
+bob@ateliergraphique.com
+admin@metacorp.com
+jack@metacorp.com
+test
+anonymous
+admin
+bee
+anonymous
+cheddar
+administrator
+scanner1
+scanner2
+bryce
+adamd
+test@thebodgeitstore.com
+cycloneuser-3@cyclonetransfers.com
+user1
+user2
+demo
+mod
+assistant
+author
+editor
+publisher
+registered
+admin
+user
+webgoat
+ssh
+admin
+root
+username
+guest
+basic
+test
+guest
+user
+basic
+webgoat
+owaspbwa
+123456
+admin1234
+yankeessuck
+test
+anonymous
+bug
+orange
+secret
