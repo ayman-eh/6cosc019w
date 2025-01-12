@@ -48,12 +48,24 @@ echo '.glitch-text {';
 echo '  animation: glitch 1s infinite;';
 echo '}';
 
+echo '.smiley-container {';
+echo '  display: flex;';
+echo '  justify-content: center;';
+echo '  align-items: center;';
+echo '  gap: 20px;';
+echo '  font-size: 40px;';
+echo '}';
+
 echo '.smiley {';
-echo '  font-size: 100px;';
 echo '  color: #00ff00;';
-echo '  text-align: center;';
-echo '  padding-top: 20px;';
-echo '  animation: glitch 1s infinite;';
+echo '  font-size: 40px;';
+echo '  white-space: pre;';
+echo '}';
+
+echo '.ascii-art {';
+echo '  font-size: 20px;';
+echo '  line-height: 1.5;';
+echo '  white-space: pre-wrap;';
 echo '}';
 
 echo '</style>';
@@ -86,63 +98,39 @@ echo '    if (drops[i] * fontSize > canvas.height && Math.random() > 0.975) {';
 echo '      drops[i] = 0;';
 echo '    }';
 echo '    drops[i]++;';
-echo '  }';
 echo '}';
 
 echo 'setInterval(draw, 35);';
 echo '</script>';
 
-echo '<div style="text-align: center; display: flex; align-items: center;">';
+echo '<div class="smiley-container">';
 
-echo '<table style="width: 100%; text-align: center; border-collapse: collapse;">';
-echo '<tr>';
-echo '<td style="width: 50%; padding: 0; text-align: center;">';
+// The smiley face
+echo '<pre class="smiley">
+   _____
+  |     |
+  |  O  |
+  | \_/ |
+  |     |
+  |_____|
+</pre>';
 
+// The ASCII text "6COSC019W"
+echo '<pre class="smiley">
+  6   CCCC  OOO  SSS  CCCC   0   1  9   W   W
+  6  C     O   O S    C     0   1  9   W   W
+  6  C     O   O  SSS  C     0   1  9   W W W
+  6  C     O   O    S  C     0   1  9   WW WW
+  6   CCCC  OOO   SSS  CCCC   0   1  9   W   W
+</pre>';
 
-echo '<table style="width: 100%; text-align: center; border-collapse: collapse;">';
-echo '<tr>';
+echo '</div>';
 
-echo '<td style="width: 50%; padding: 0; text-align: center;">';
-
-// Hacker face in ASCII art
-echo '<pre style="font-size: 40px; color: #00ff00; margin: 0; padding: 0; white-space: pre-wrap;">';
-echo '   _____';
-echo '  |     |';
-echo '  |  O  |';
-echo '  | \_/ |';
-echo '  |     |';
-echo '  |_____|';
-echo '</pre>';
-
-echo '</td>';
-
-echo '<td style="width: 50%; padding: 0; text-align: center;">';
-
-// ASCII art for "6COSC019W"
-echo '<pre style="font-size: 40px; color: #00ff00; margin: 0; padding: 0; white-space: pre-wrap;">';
-echo '  6   CCCC  OOO  SSS  CCCC  0   1  9   W   W';
-echo '  6  C     O   O S    C     0   1  9   W   W';
-echo '  6  C     O   O  SSS  C     0   1  9   W W W';
-echo '  6  C     O   O    S  C     0   1  9   WW WW';
-echo '  6   CCCC  OOO   SSS  CCCC  0   1  9   W   W';
-echo '</pre>';
-
-echo '</td>';
-
-echo '</tr>';
-echo '</table>';
-
-
-
-echo '<h1 class="glitch-text">YOU HAVE BEEN HACKED!</h1>';
-
-echo '<h2 class="glitch-text">6COSC019W RFI Activity Completed</h2>';
-echo '<p class="glitch-text">Warning: The system is vulnerable not only to the Local File Inclusion (LFI) attack but also to the remote one (RFI)! Take immediate action!</p>';
-echo '<p class="glitch-text">Take immediate action! Screenshot and think about your assignment answer</p>';
-
-
-
-echo '<p class="glitch-text">Stay calm, and think about the Remote File Inclusion question in your assignment.</p>';
+echo '<h1>YOU HAVE BEEN HACKED!</h1>';
+echo '<h2>The RFI Activity Completed</h2>';
+echo '<p>Warning: The system is vulnerable not only to the Local File Inclusion (LFI) attack but also to the remote one (RFI)! Take immediate action!</p>';
+echo '<p>Take immediate action! Screenshot and think about your assignment answer.</p>';
+echo '<p>Stay calm, and think about the Remote File Inclusion question in your assignment.</p>';
 
 echo '</body>';
 echo '</html>';
