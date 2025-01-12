@@ -1,5 +1,4 @@
 <?php
-// Displaying a hacker-themed page with a dark background and text
 echo '<!DOCTYPE html>';
 echo '<html>';
 echo '<head>';
@@ -40,9 +39,11 @@ echo '</style>';
 echo '</head>';
 echo '<body>';
 echo '<h1>YOU HAVE BEEN HACKED!</h1>';
-echo '<p>Warning: Your system is compromised. Take immediate action!</p>';
-echo '<p>All your data is at risk...</p>';
-echo '<p>Stay calm, and Think about the Remote File Inclusion question in your assignment.</p>';
+echo '<h2>6COSC019W RFI activitiy completed</h2>';
+echo '<p>Warning: The system is vulnerable to not only . Take immediate action!</p>';
+echo '<p>Stay calm, and Think about the .....</p>';
+echo '<p> Remote File Inclusion question in your assignment.</p>';
+
 echo '</body>';
 echo '</html>';
 ?>
