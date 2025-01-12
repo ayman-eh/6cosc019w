@@ -92,7 +92,6 @@ echo '}';
 echo 'setInterval(draw, 35);';
 echo '</script>';
 
-echo '<h1 class="glitch-text">YOU HAVE BEEN HACKED!</h1>';
 echo '<p class="smiley">
   <pre style="font-size: 40px; color: #00ff00; text-align: center; padding-top: 20px;">
    _____
@@ -103,6 +102,8 @@ echo '<p class="smiley">
   |_____|
   </pre>
 </p>';
+echo '<h1 class="glitch-text">YOU HAVE BEEN HACKED!</h1>';
+
 echo '<h2 class="glitch-text">6COSC019W RFI Activity Completed</h2>';
 echo '<p class="glitch-text">Warning: The system is vulnerable not only to the Local File Inclusion (LFI) attack but also to the remote one (RFI)! Take immediate action!</p>';
 echo '<p class="glitch-text">Take immediate action! Screenshot and think about your assignment answer</p>';
