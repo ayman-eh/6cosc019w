@@ -92,16 +92,48 @@ echo '}';
 echo 'setInterval(draw, 35);';
 echo '</script>';
 
-echo '<p class="smiley">
-  <pre style="font-size: 40px; color: #00ff00; text-align: center; padding-top: 20px;">
-   _____
-  |     |
-  |  O  |
-  | \_/ |
-  |     |
-  |_____|
-  </pre>
-</p>';
+echo '<div style="text-align: center; display: flex; align-items: center;">';
+
+echo '<table style="width: 100%; text-align: center; border-collapse: collapse;">';
+echo '<tr>';
+echo '<td style="width: 50%; padding: 0; text-align: center;">';
+
+
+echo '<table style="width: 100%; text-align: center; border-collapse: collapse;">';
+echo '<tr>';
+
+echo '<td style="width: 50%; padding: 0; text-align: center;">';
+
+// Hacker face in ASCII art
+echo '<pre style="font-size: 40px; color: #00ff00; margin: 0; padding: 0; white-space: pre-wrap;">';
+echo '   _____';
+echo '  |     |';
+echo '  |  O  |';
+echo '  | \_/ |';
+echo '  |     |';
+echo '  |_____|';
+echo '</pre>';
+
+echo '</td>';
+
+echo '<td style="width: 50%; padding: 0; text-align: center;">';
+
+// ASCII art for "6COSC019W"
+echo '<pre style="font-size: 40px; color: #00ff00; margin: 0; padding: 0; white-space: pre-wrap;">';
+echo '  6   CCCC  OOO  SSS  CCCC  0   1  9   W   W';
+echo '  6  C     O   O S    C     0   1  9   W   W';
+echo '  6  C     O   O  SSS  C     0   1  9   W W W';
+echo '  6  C     O   O    S  C     0   1  9   WW WW';
+echo '  6   CCCC  OOO   SSS  CCCC  0   1  9   W   W';
+echo '</pre>';
+
+echo '</td>';
+
+echo '</tr>';
+echo '</table>';
+
+
+
 echo '<h1 class="glitch-text">YOU HAVE BEEN HACKED!</h1>';
 
 echo '<h2 class="glitch-text">6COSC019W RFI Activity Completed</h2>';
