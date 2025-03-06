@@ -10,6 +10,6 @@ w="\033[0m"
 CONFIG_FILE="/etc/setoolkit/set.config"
 
 # Use sed to replace 'Apache_Server=OFF' with 'Apache_Server=ON'
-sed -i 's/^Apache_Server=OFF/Apache_Server=ON/' "$CONFIG_FILE"
+sed -i 's/^APACHE_SERVER=OFF/APACHE_SERVER=ON/' "$CONFIG_FILE"
 
 echo "Configuration updated successfully."
