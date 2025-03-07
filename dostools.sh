@@ -9,7 +9,7 @@ export USER=$(whoami)
 
 
 #STudent ID for screenshots script!
-cd /home/kali
+cd /home/kali/Desktop
 git clone https://github.com/gkbrk/slowloris.git
 git clone https://github.com/jseidl/GoldenEye.git
 git clone https://github.com/palahsu/DDoS-Ripper.git
