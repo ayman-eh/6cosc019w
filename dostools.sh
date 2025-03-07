@@ -12,5 +12,6 @@ export USER=$(whoami)
 cd /home/kali/Desktop
 git clone https://github.com/gkbrk/slowloris.git
 git clone https://github.com/jseidl/GoldenEye.git
+cd /home/kali/
 git clone https://github.com/palahsu/DDoS-Ripper.git
 
